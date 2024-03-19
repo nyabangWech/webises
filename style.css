@@ -1,0 +1,45 @@
+
+
+#k{
+    background-color: rgb(49, 49, 221);
+    color:white;
+    padding:0.5%;
+}
+#navbar{
+display: flex;
+justify-content: space-between;
+
+
+}.button{
+   border-radius: 4px; 
+   padding:4px;
+}.button:hover{
+    background-color:red;
+    color:white;
+}.Testimonials{
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    background-image: url(code1.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    color:aliceblue;
+}.button1{
+    border-radius:6px;
+    padding:6px;
+    background-color:red;
+
+}.button1:hover{
+    backround-color:blue;
+    color:white;
+}
+.images{
+    direction:left;
+}
+
+
+
+
+
+
