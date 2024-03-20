@@ -55,7 +55,64 @@ justify-content: space-between;
     font-size: 20px;
     padding: 20px;
     margin-left: 100px;
+
+}.wrapper{
+    border:2px solid;
+    
+    width:80vw;
+    transform:translate(50%-50);
+    top:50%;
+    left:50%;
+    justify-content :space-around;
+    gap:10px;
+}.container1{
+    width:28vmin;
+    height: 28vmin;
+    border:1px solid color white;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-size:16px;
+    border: radius 2px;
+    background-color:black;
+    border-bottom: 10px;
+}span.number{
+    color:white;
+    display:grid;
+    font-weight:600px;
+    font-size:3em;
+
+}span.text{
+    color:white;
+    text-align:center;
+    font-weight:400px;
+    line-style:none;{}
+
+}@media screen and(max-width:1024px){
+   .header{
+        display: flex;
+        gap: 20px;
+        border: solid 1px;
+        border-radius: 3px;
+        background-color: blue;
+        color: white;
+        padding: 15px;
+    
+    }
+    #icons{
+        float: right;
+        gap: 10px;
+    }
+    #contact{
+        float: right;
+    }
+   |}
+#container{
+    display:flex;
 }
+
+    display:flex;
+
     
 
 
