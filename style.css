@@ -1,10 +1,21 @@
 
 
-#k{
-    background-color: rgb(49, 49, 221);
-    color:white;
-    padding:0.5%;
-    
+.header{
+    display: flex;
+    gap: 60%;
+    border: solid 1px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+#icons{
+    float: right;
+    gap: 20px;
+}
+#contact{
+    float: right;
 }
 #navbar{
 display: flex;
@@ -12,35 +23,42 @@ justify-content: space-between;
 
 
 }.button{
-   border-radius: 4px; 
-   padding:4px;
+   border-radius: 2px; 
+   padding:2px;
+   background-color: red;
+   color:black;
+   width: 190px;
 }.button:hover{
     background-color:red;
     color:white;
 }.Testimonials{
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    font-size: 30px;
 }
 #image{
     background-image: url(code1.png);
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: 200%;
     color:aliceblue;
-}.button1{
-
-    padding:6px;
-    background-color:red;
-    border:none;
-    display:inline-block;
-
-
-}.button1:hover{
-    backround-color:blue;
-    color:white;
-}.button a.active{
-    background-color:blue;
-    color:white;
+    border-radius:25px;
+    justify-content: center;
 }
+
+#textblock{
+    margin-left: 10%;
+    font-size: larger;
+
+}
+.button1{
+    background-color:red;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 100px;
+}
+    
+
+
 
     
 
