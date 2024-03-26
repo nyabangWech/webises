@@ -119,7 +119,8 @@ gap:1%;
  
  
 }.master{
-    background-color:blueviolet;
+    background-color:aquamarine;
+    background-size: cover;
 }.container{
     padding:0 6%;
     margin:auto;
@@ -133,6 +134,34 @@ gap:1%;
     background-color:blue;
 }.count{
     font-size:20px;
+}.technva{
+    border-radius:50px;
+}.technvaa{
+    border-radius:30px;
+}#solutionss{
+    text-align: center;
+    float:left;
+    justify-content: center;
+    
+}.head{
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}.servicess{
+    
+
+
+}.comprehend{
+    display:flex;
+    text-align: center;
+    gap:20px;
+    bottom:0;
+    background-color: black;
+    width:100%;
+    color:white;
+}.comprehend p{
+    font-size: medium;
+}.comprehend h1{
+
 }
   
     
