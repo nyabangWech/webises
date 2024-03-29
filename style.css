@@ -26,6 +26,7 @@ display: flex;
 justify-content: space-between;
 
 
+
 }.button{
    border-radius: 2px; 
    padding:8px;
@@ -58,7 +59,7 @@ justify-content: space-between;
 
 }
 .button1{
-    background-color:red;
+    background-color:brown;
     color: white;
     font-size: 20px;
     padding: 20px;
